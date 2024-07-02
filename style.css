@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+
+}
+
+.conteiner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+
+
+
+
+
+}
+
+.background-img {
+    width: 100%;
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
+}
+
+.img {
+    border: 5px solid white;
+    height: 70px;
+    border-radius: 100%;
+    margin: -35px;
+    margin-bottom: 5px;
+}
+
+.london {
+    color: hsl(0, 0%, 59%);
+}
+
+
+.conteiner h1 {
+    font-size: 20px;
+}
+
+/* .conteiner p {
+    padding-bottom: 15px;
+} */
+
+.name-age {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.victor-age {
+    color: hsl(0, 0%, 59%)
+}
+
+
+
+
+.p-conteiner {
+
+    gap: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 40px;
+    justify-content: center;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    /* background-color: red; */
+    width: 100%;
+
+
+
+
+
+}
+.font-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.follower-p {
+    color: hsl(0, 0%, 59%)
+}
+
+.likes-p {
+    color: hsl(0, 0%, 59%)
+}
+
+.photos-p {
+    color: hsl(0, 0%, 59%)
+}
